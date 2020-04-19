@@ -1,10 +1,12 @@
 import React from 'react';
-import { Button } from 'antd';
 import './antd/dist/antd.css';
+import TodoList from './component/TodoList';
+import TodoItems from './component/TodoItems';
 
 const App = () => (
   <div className="App">
-    <Button type="primary">Button</Button>
+    <TodoList/>
+    <TodoItems/>
   </div>
 );
 
